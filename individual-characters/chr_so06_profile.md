@@ -1,12 +1,120 @@
 ---
 # Character Profile
-[前半部分は同じなので省略...]
+version: 1.0.0
+last_updated: 2024-11-28
+status: final
+
+# Basic Information
+character_id: SO-06
+name:
+  given: "修平"
+  family: "鹿島"
+  full: "鹿島 修平"
+  reading: "カシマ シュウヘイ"
+
+# Core Stats
+year: 2
+position: OPP
+height: 183
+team: "創星学園"
+previous_team: "創星中学校"
+previous_club: "バレーボール部"
+
+# Abilities
+abilities:
+  attack: A
+  receive: B
+  serve: B
+  block: B
+  stamina: A
+  technique: A
+
+# Personality Axes
+personality:
+  energy_axis:
+    core_energy: "internal"  # 内面での整理と分析を重視
+    energy_expression: "selective"  # 計画的で慎重な行動選択
+    influence_type: "indirect"  # 緻密な分析と準備による貢献
+    influence_scope: "individual"  # 個別の状況に応じた対応
+
+  motivation_axis:
+    internal_motivation: 
+      primary: "perfectionism"  # 完璧な準備と実行への追求
+      secondary: "intellectual_curiosity"  # データ分析への探究心
+    external_motivation:
+      primary: "team_contribution"  # チームの環境整備
+      secondary: "duty"  # 後輩の指導責任
+    behavioral_approach: "planned"  # 緻密な計画に基づく行動
+    interpersonal_style: "supportive"  # 後輩へのサポート重視
+
+  information_axis:
+    stress_response:
+      cognitive: "analytical"  # 状況の詳細な分析
+      processing: "overcoming"  # 準備と対策による克服
+      coping: "systematic"  # 整理整頓による心の安定
+    learning_style:
+      input: "theoretical"  # データに基づく理論的理解
+      processing: "systematic"  # 体系的な知識の整理
+      development: "conservative"  # 着実な技術の積み上げ
+
+  expression_axis:
+    basic_stance:
+      openness: "selective"  # 状況に応じた適切な表現
+      method: "indirect"  # データや分析を通じた伝達
+    style:
+      interpersonal: "mentoring"  # 後輩への丁寧な指導
+      situational: "analytical"  # データに基づく状況判断
+
+# Related files
+related_files:
+  - teams/souseigakuen-analysis.md
+  - relationships/opposite-network.md
+---
+
+# 鹿島 修平（カシマ シュウヘイ）
+
+## 基本情報
+- ID: SO-06
+- 学年：2年
+- ポジション：オポジット
+- 身長：183cm
+- 所属：創星学園
+- 出身：創星中学校
+
+## 能力値
+- 攻撃力：A
+- レシーブ：B
+- サーブ：B
+- ブロック：B
+- スタミナ：A
+- テクニック：A
+
+## 性格・特徴
+
+### パーソナリティ4軸分析
+#### 1. エネルギーの方向性
+- コアエネルギー：内的
+  * 内面での整理と分析から力を得る
+  * データの収集と整理を重視
+  * 緻密な準備による安定感
+- エネルギーの発露：選択的
+  * 計画的な行動選択
+  * 状況に応じた対応
+  * 効率重視の判断
+- 影響力の特徴：間接的
+  * データ分析による貢献
+  * 環境整備を通じた支援
+  * 緻密な準備による成果
+- 影響範囲：個人的
+  * 個別の状況への対応
+  * 一対一での丁寧な指導
+  * きめ細かなサポート
 
 #### 2. 行動の原動力
 - 主な内的動機：完璧主義
   * 準備と実行の完璧さを追求
   * データの正確性へのこだわり
-  * 技術の精密な習得
+  * 練習ノートの徹底的な記録
 - 主な外的動機：チーム貢献
   * チーム環境の整備
   * データ分析による戦術支援
