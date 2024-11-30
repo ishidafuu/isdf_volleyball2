@@ -1,0 +1,53 @@
+# 眼力関連能力 (Visual & Perceptual Abilities)
+vision:
+  # ボールの軌道読み
+  ball_tracking:
+    description: "ボールの移動経路と落下地点の予測能力"
+    rating: "" # S/A/B/C
+    components:
+      trajectory_reading: "" # 軌道読み
+      speed_judgment: ""    # 速度判断
+      spin_detection: ""    # 回転の見極め
+    
+  # コート内の状況把握
+  court_awareness:
+    description: "コート内の味方・相手の位置関係の把握能力"
+    rating: "" # S/A/B/C
+    components:
+      player_positioning: "" # プレイヤーの位置把握
+      space_recognition: "" # スペースの認識
+      formation_reading: "" # フォーメーションの把握
+
+  # 相手の動き予測
+  prediction:
+    description: "相手の次の動きを予測する能力"
+    rating: "" # S/A/B/C
+    components:
+      movement_prediction: "" # 動き予測
+      pattern_recognition: "" # パターン認識
+      habit_detection: ""    # 癖の見極め
+
+  # 空間認識能力
+  spatial_sense:
+    description: "3次元空間での位置関係を把握する能力"
+    rating: "" # S/A/B/C
+    components:
+      distance_perception: "" # 距離感覚
+      height_perception: ""   # 高さ感覚
+      angle_judgment: ""      # 角度判断
+
+  # プレーパターンの認識
+  pattern_recognition:
+    description: "試合展開やプレーの流れを読む能力"
+    rating: "" # S/A/B/C
+    components:
+      play_development: ""    # 展開予測
+      strategy_reading: ""    # 戦術読み
+      situation_analysis: ""  # 状況分析
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項

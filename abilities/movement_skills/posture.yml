@@ -1,0 +1,136 @@
+# 姿勢制御 (Posture Control)
+posture:
+  # 基本姿勢
+  basic_posture:
+    description: "基本的な姿勢保持技術"
+    rating: "" # S/A/B/C
+    components:
+      # 静的姿勢
+      static:
+        core_stability: ""   # 体幹安定性
+        balance: ""          # バランス
+        alignment: ""        # 身体の配列
+        tension: ""          # 適切な緊張
+      
+      # 動的姿勢
+      dynamic:
+        movement_control: "" # 動作制御
+        balance_adjust: ""   # バランス調整
+        coordination: ""     # 協調性
+        flexibility: ""      # 柔軟性
+
+  # 準備姿勢
+  ready_position:
+    description: "プレー開始時の構え"
+    rating: "" # S/A/B/C
+    components:
+      # 基本要素
+      fundamentals:
+        foot_position: ""    # 足位置
+        knee_bend: ""        # 膝の曲げ
+        hip_position: ""     # 腰の位置
+        upper_body: ""       # 上体の姿勢
+      
+      # 反応準備
+      reaction_readiness:
+        weight_distribution: "" # 重心配分
+        muscle_readiness: ""   # 筋肉の準備
+        visual_focus: ""       # 視線
+        mental_alertness: ""   # 精神的警戒
+
+  # 移行姿勢
+  transitional_posture:
+    description: "動作間の姿勢変化"
+    rating: "" # S/A/B/C
+    components:
+      # 切り替え
+      transition:
+        smoothness: ""        # 滑らかさ
+        efficiency: ""        # 効率性
+        speed: ""            # 切り替え速度
+        control: ""          # 制御性
+      
+      # 体勢立て直し
+      recovery:
+        quick_adjustment: ""  # 素早い調整
+        balance_recovery: ""  # バランス回復
+        position_reset: ""    # 位置リセット
+
+  # 技術別姿勢
+  technical_postures:
+    description: "各技術に特有の姿勢"
+    rating: "" # S/A/B/C
+    variations:
+      # レシーブ姿勢
+      receive:
+        low_posture: ""      # 低い姿勢
+        arm_position: ""     # 腕の位置
+        body_angle: ""       # 体の角度
+      
+      # スパイク姿勢
+      spike:
+        approach_posture: "" # 助走姿勢
+        jump_posture: ""     # ジャンプ姿勢
+        hitting_posture: ""  # 打撃姿勢
+      
+      # ブロック姿勢
+      block:
+        ready_stance: ""     # 構え姿勢
+        jump_position: ""    # ジャンプ姿勢
+        landing_form: ""     # 着地姿勢
+
+  # 状況対応
+  situational_adaptation:
+    description: "状況に応じた姿勢適応"
+    rating: "" # S/A/B/C
+    components:
+      # 緊急対応
+      emergency:
+        quick_reaction: ""   # 素早い反応
+        improvisation: ""    # 臨機応変
+        safety_control: ""   # 安全性確保
+      
+      # 戦術的対応
+      tactical:
+        deception: ""        # フェイント性
+        positioning: ""      # 位置取り
+        timing_control: ""   # タイミング制御
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 姿勢改善計画
+improvement_plan:
+  short_term:
+    focus_points: []    # 重点項目
+    exercises: []       # トレーニング内容
+    duration: ""        # 期間
+  
+  long_term:
+    goals: []           # 目標
+    approach: ""        # アプローチ方法
+    checkpoints: []     # 確認ポイント
+
+# トレーニングメニュー
+training_menus:
+  - name: "基本姿勢練習"
+    focus: ["stability", "balance"]
+    duration: "20分"
+    
+  - name: "動的姿勢練習"
+    focus: ["movement", "control"]
+    duration: "25分"
+    
+  - name: "技術別姿勢練習"
+    focus: ["specific_form", "transition"]
+    duration: "30分"
+
+# 特記事項
+notes:
+  physical_limitations: [] # 身体的制限
+  special_considerations: [] # 特別な配慮事項
+  recommended_focus: []    # 推奨される注目点

@@ -1,0 +1,92 @@
+# 特殊トススキル (Special Setting Skills)
+special_sets:
+  # クイックトス
+  quick_set:
+    description: "速攻のためのクイックトス"
+    rating: "" # S/A/B/C
+    components:
+      # 技術要素
+      technique:
+        ball_handling: ""    # ボール捌き
+        release_speed: ""    # リリース速度
+        accuracy: ""         # 精度
+        consistency: ""      # 安定性
+      
+      # バリエーション
+      variations:
+        a_quick: ""         # Aクイック
+        b_quick: ""         # Bクイック
+        c_quick: ""         # Cクイック
+        slide: ""           # スライド
+
+  # バックトス
+  back_set:
+    description: "後方へのトス技術"
+    rating: "" # S/A/B/C
+    components:
+      # 基本技術
+      basics:
+        body_control: ""     # 体勢制御
+        spatial_awareness: "" # 空間把握
+        consistency: ""      # 安定性
+      
+      # 応用技術
+      advanced:
+        deception: ""        # フェイント性
+        distance_control: "" # 距離調整
+        timing_control: ""   # タイミング
+
+  # コンビネーショントス
+  combination_set:
+    description: "複合的な攻撃のためのトス"
+    rating: "" # S/A/B/C
+    components:
+      # 戦術理解
+      tactical:
+        pattern_knowledge: "" # パターン理解
+        timing_adjustment: "" # タイミング調整
+        player_sync: ""      # 選手との同期
+      
+      # 実行力
+      execution:
+        decision_making: ""  # 判断力
+        adaptation: ""       # 状況対応
+        precision: ""        # 正確性
+
+  # 緊急トス
+  emergency_set:
+    description: "崩れた体勢からのトス技術"
+    rating: "" # S/A/B/C
+    components:
+      # 対応力
+      response:
+        position_recovery: "" # 体勢立て直し
+        ball_control: ""     # ボールコントロール
+        quick_judgment: ""   # 瞬時判断
+      
+      # 技術応用
+      adaptation:
+        one_handed: ""      # 片手トス
+        jumping: ""         # ジャンプトス
+        off_balance: ""     # 崩れ体勢
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# セッター固有評価
+setter_specific:
+  # 戦術的思考
+  tactical_thinking:
+    game_reading: ""        # 試合読解
+    opponent_analysis: ""   # 相手分析
+    strategy_variation: ""  # 戦術変化
+
+  # チーム連携
+  team_coordination:
+    attacker_sync: ""      # アタッカーとの同期
+    blocking_setup: ""     # ブロック態勢構築
+    communication: ""      # コミュニケーション

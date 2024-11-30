@@ -1,0 +1,37 @@
+abilities/
+  ├── basic_abilities/
+  │   ├── vision.yml        # 眼力関連能力
+  │   ├── judgment.yml      # 判断力関連能力
+  │   ├── technique.yml     # 技術関連能力
+  │   ├── physical.yml      # 身体能力関連
+  │   └── mental.yml        # メンタル関連能力
+  │
+  ├── attack_skills/
+  │   ├── basic_attacks.yml    # 基本攻撃スキル
+  │   ├── moving_attacks.yml   # 移動攻撃スキル
+  │   ├── position_attacks.yml # ポジション別攻撃特性
+  │   └── combinations.yml     # コンビネーション攻撃
+  │
+  ├── defense_skills/
+  │   ├── receive.yml       # レシーブスキル
+  │   ├── dig.yml          # ディグスキル
+  │   └── block.yml        # ブロックスキル
+  │
+  ├── setting_skills/
+  │   ├── basic_sets.yml    # 基本トススキル
+  │   └── special_sets.yml  # 特殊トススキル
+  │
+  ├── serve_skills/
+  │   ├── float_serves.yml  # フローターサーブスキル
+  │   ├── jump_serves.yml   # ジャンプサーブスキル
+  │   └── serve_control.yml # サーブコントロール特性
+  │
+  ├── movement_skills/
+  │   ├── footwork.yml      # フットワークスキル
+  │   ├── jumping.yml       # ジャンプ技術
+  │   └── posture.yml       # 姿勢制御
+  │
+  └── team_skills/
+      ├── communication.yml  # コミュニケーションスキル
+      ├── positioning.yml    # ポジショニングスキル
+      └── system_play.yml   # システムプレースキル

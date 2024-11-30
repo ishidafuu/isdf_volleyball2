@@ -1,0 +1,95 @@
+# コンビネーション攻撃 (Combination Attacks)
+combinations:
+  # 基本コンビネーション
+  basic_combinations:
+    description: "基本的な複数人での攻撃パターン"
+    rating: "" # S/A/B/C
+    variations:
+      first_tempo:
+        quick: ""           # クイック
+        slide: ""           # スライド
+        timing: ""          # タイミング調整
+      
+      second_tempo:
+        outside: ""         # 外側攻撃
+        pipe: ""           # パイプ
+        synchronization: "" # 同期性
+      
+      third_tempo:
+        back_attack: ""     # バックアタック
+        delayed: ""         # 時間差
+        positioning: ""     # 位置取り
+
+  # 高度なコンビネーション
+  advanced_combinations:
+    description: "複雑な攻撃パターン"
+    rating: "" # S/A/B/C
+    patterns:
+      # 多段攻撃
+      multi_stage:
+        first_action: ""    # 第一動作
+        second_action: ""   # 第二動作
+        decoy_movement: ""  # 囮動作
+      
+      # 交差移動
+      crossing:
+        timing: ""          # タイミング
+        path_control: ""    # 移動経路
+        interference: ""    # 干渉効果
+
+  # 状況別コンビネーション
+  situational_combinations:
+    description: "試合状況に応じた攻撃パターン"
+    components:
+      # チャンス時
+      chance_ball:
+        pattern_choice: ""  # パターン選択
+        execution: ""       # 実行力
+        effectiveness: ""   # 有効性
+      
+      # 厳しい状況
+      tough_situation:
+        safe_pattern: ""    # 安全策
+        risk_management: "" # リスク管理
+        adaptation: ""      # 状況適応
+
+  # チーム固有コンビネーション
+  team_specific:
+    description: "チーム独自の攻撃パターン"
+    original_patterns:
+      pattern1:
+        name: ""           # パターン名
+        sequence: ""       # 手順
+        key_points: []     # 重要ポイント
+      
+      pattern2:
+        name: ""           # パターン名
+        sequence: ""       # 手順
+        key_points: []     # 重要ポイント
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 練習メニュー
+training_menus:
+  # 基本練習
+  basic_training:
+    - name: "基本コンビネーション"
+      focus: ["timing", "positioning"]
+      duration: "45分"
+    
+    - name: "応用コンビネーション"
+      focus: ["synchronization", "execution"]
+      duration: "30分"
+
+# コンビネーション成功率
+success_rate:
+  pattern_stats:
+    - pattern_name: ""    # パターン名
+      attempts: 0         # 試行回数
+      success: 0          # 成功回数
+      effectiveness: 0    # 有効率

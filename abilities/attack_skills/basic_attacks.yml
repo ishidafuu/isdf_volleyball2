@@ -1,0 +1,73 @@
+# 基本攻撃スキル (Basic Attack Skills)
+basic_attacks:
+  # 基本スパイク
+  basic_spike:
+    description: "基本的なスパイク技術"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["ball_tracking", "spatial_sense"]
+      judgment: ["situation_analysis", "quick_thinking"]
+      technique: ["ball_control", "timing_control"]
+      physical: ["power", "jumping"]
+    components:
+      approach:
+        timing: ""      # 助走タイミング
+        rhythm: ""      # ステップリズム
+        direction: ""   # 助走方向
+      
+      jumping:
+        height: ""      # 跳躍高
+        balance: ""     # 体勢維持
+        timing: ""      # ジャンプタイミング
+      
+      hitting:
+        contact: ""     # ミート
+        power: ""       # 打球力
+        control: ""     # コントロール
+        
+  # フェイント
+  feint:
+    description: "相手を欺くフェイント技術"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["court_awareness", "pattern_recognition"]
+      judgment: ["risk_assessment", "tactical_choice"]
+      technique: ["ball_control", "movement_precision"]
+      physical: ["flexibility", "control"]
+    components:
+      deception:
+        motion: ""      # 動作の偽装
+        timing: ""      # タイミング操作
+        variation: ""   # バリエーション
+      
+      execution:
+        precision: ""   # 配球精度
+        speed_control: "" # スピード調整
+        placement: ""   # 配置
+
+  # 打ち分け
+  shot_variation:
+    description: "様々な攻撃パターンの使い分け"
+    rating: "" # S/A/B/C
+    variations:
+      straight: ""      # ストレート
+      cross: ""         # クロス
+      sharp_cross: ""   # シャープクロス
+      wipe: ""          # もらい狙い
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 練習メニュー例
+training_menus:
+  - name: "基本スパイク練習"
+    focus: ["approach_timing", "hitting_point"]
+    duration: "30分"
+    
+  - name: "フェイント練習"
+    focus: ["court_awareness", "deception"]
+    duration: "20分"

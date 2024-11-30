@@ -1,0 +1,99 @@
+# ジャンプ技術 (Jumping Skills)
+jumping:
+  # 垂直跳び
+  vertical_jump:
+    description: "その場での跳躍技術"
+    rating: "" # S/A/B/C
+    components:
+      # 踏切
+      takeoff:
+        leg_power: ""       # 脚力
+        arm_swing: ""       # 腕振り
+        timing: ""          # タイミング
+        ground_contact: ""  # 地面接触
+      
+      # 空中動作
+      aerial:
+        height: ""          # 最高到達点
+        body_control: ""    # 体勢制御
+        stability: ""       # 安定性
+      
+      # 着地
+      landing:
+        balance: ""         # バランス
+        shock_absorption: "" # 衝撃吸収
+        readiness: ""       # 次の動作準備
+
+  # 助走跳び
+  approach_jump:
+    description: "移動からの跳躍技術"
+    rating: "" # S/A/B/C
+    components:
+      # 助走
+      approach:
+        step_pattern: ""    # ステップパターン
+        speed_control: ""   # スピード調整
+        rhythm: ""          # リズム
+      
+      # 踏切
+      takeoff:
+        approach_angle: ""  # 踏切角度
+        power_transfer: ""  # パワー伝達
+        timing: ""          # タイミング
+      
+      # 方向制御
+      direction:
+        forward_control: "" # 前方制御
+        lateral_control: "" # 側方制御
+        rotation: ""        # 回転制御
+
+  # 連続ジャンプ
+  consecutive_jumps:
+    description: "連続的な跳躍技術"
+    rating: "" # S/A/B/C
+    components:
+      # リバウンド
+      rebound:
+        quickness: ""       # 素早さ
+        elasticity: ""      # 弾性
+        rhythm: ""          # リズム
+      
+      # 持続力
+      endurance:
+        power_maintenance: "" # パワー維持
+        form_maintenance: ""  # フォーム維持
+        recovery: ""          # 回復力
+
+  # 特殊ジャンプ
+  specialized_jumps:
+    description: "特定の状況での跳躍技術"
+    rating: "" # S/A/B/C
+    variations:
+      block_jump: ""        # ブロックジャンプ
+      spike_jump: ""        # スパイクジャンプ
+      serve_jump: ""        # サーブジャンプ
+      emergency_jump: ""    # 緊急ジャンプ
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 測定記録
+measurements:
+  vertical_reach: ""      # 垂直到達点
+  approach_reach: ""      # 助走到達点
+  consecutive_jumps: ""   # 連続ジャンプ回数
+  power_endurance: ""     # 持久力
+
+# トレーニングメニュー
+training_menus:
+  - name: "垂直跳び練習"
+    focus: ["power", "technique"]
+    duration: "30分"
+    
+  - name: "助走跳び練習"
+    focus: ["approach", "timing"]
+    duration: "35分"

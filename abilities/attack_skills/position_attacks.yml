@@ -1,0 +1,112 @@
+# ポジション別攻撃スキル (Position-specific Attack Skills)
+position_attacks:
+  # レフト攻撃
+  left_attack:
+    description: "レフトポジションからの攻撃技術"
+    rating: "" # S/A/B/C
+    components:
+      # 基本技術
+      basics:
+        approach_angle: ""    # 助走角度
+        jump_position: ""     # ジャンプ位置
+        hitting_range: ""     # 打撃範囲
+      
+      # 攻撃バリエーション
+      variations:
+        cross: ""            # クロス打ち
+        straight: ""         # ストレート打ち
+        cut_shot: ""         # カット打ち
+        wipe: ""             # もらい攻撃
+
+  # ライト攻撃
+  right_attack:
+    description: "ライトポジションからの攻撃技術"
+    rating: "" # S/A/B/C
+    components:
+      # 基本技術
+      basics:
+        approach_pattern: ""  # 助走パターン
+        body_alignment: ""    # 体の向き
+        arm_swing: ""         # スイング軌道
+      
+      # 攻撃バリエーション
+      variations:
+        cross: ""            # クロス打ち
+        straight: ""         # ストレート打ち
+        back_attack: ""      # バックアタック
+        tip: ""              # チップ
+
+  # センター攻撃
+  center_attack:
+    description: "センターポジションからの攻撃技術"
+    rating: "" # S/A/B/C
+    components:
+      # クイック攻撃
+      quick:
+        a_quick: ""          # Aクイック
+        b_quick: ""          # Bクイック
+        c_quick: ""          # Cクイック
+      
+      # スライド攻撃
+      slide:
+        front_slide: ""      # 前スライド
+        back_slide: ""       # 後ろスライド
+        running_slide: ""    # 移動スライド
+
+  # バックアタック
+  back_attack:
+    description: "後衛ポジションからの攻撃技術"
+    rating: "" # S/A/B/C
+    components:
+      # 基本技術
+      basics:
+        approach_timing: ""   # 助走タイミング
+        takeoff_position: ""  # 踏切位置
+        attack_range: ""      # 攻撃範囲
+      
+      # 攻撃パターン
+      patterns:
+        pipe: ""             # パイプ攻撃
+        back_row: ""         # バックロウ
+        c_attack: ""         # Cアタック
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# ポジション別特性
+position_characteristics:
+  # 攻撃傾向
+  attack_tendencies:
+    preferred_shots: []     # 得意な攻撃
+    situational_choices: [] # 状況別選択
+    combination_plays: []   # コンビネーション
+
+  # 対ブロック戦略
+  block_strategies:
+    one_blocker: ""        # 1枚ブロック対策
+    two_blockers: ""       # 2枚ブロック対策
+    three_blockers: ""     # 3枚ブロック対策
+
+# トレーニングメニュー
+training_menus:
+  # ポジション別練習
+  position_training:
+    - name: "レフトポジション練習"
+      focus: ["cross", "straight"]
+      duration: "40分"
+    
+    - name: "ライトポジション練習"
+      focus: ["approach", "timing"]
+      duration: "35分"
+    
+    - name: "センターポジション練習"
+      focus: ["quick", "slide"]
+      duration: "30分"
+    
+    - name: "バックアタック練習"
+      focus: ["timing", "power"]
+      duration: "25分"

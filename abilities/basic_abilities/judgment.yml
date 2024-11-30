@@ -1,0 +1,53 @@
+# 判断力関連能力 (Decision Making Abilities)
+judgment:
+  # 状況分析力
+  situation_analysis:
+    description: "プレー状況を的確に分析する能力"
+    rating: "" # S/A/B/C
+    components:
+      game_flow: ""      # 試合の流れ理解
+      position_reading: "" # 位置関係の把握
+      momentum_sense: ""  # 勢いの理解
+
+  # リスク判断
+  risk_assessment:
+    description: "プレーのリスクとリターンを判断する能力"
+    rating: "" # S/A/B/C
+    components:
+      risk_calculation: ""  # リスク計算
+      success_rate: ""     # 成功率予測
+      alternative_plans: "" # 代替案検討
+
+  # 瞬時の判断力
+  quick_thinking:
+    description: "短時間で最適な判断を下す能力"
+    rating: "" # S/A/B/C
+    components:
+      reaction_speed: ""   # 反応速度
+      decision_accuracy: "" # 判断精度
+      adaptability: ""     # 状況適応力
+
+  # 戦術選択
+  tactical_choice:
+    description: "状況に応じた最適な戦術を選択する能力"
+    rating: "" # S/A/B/C
+    components:
+      strategy_selection: "" # 戦略選択
+      timing_choice: ""     # タイミング選択
+      variation_use: ""     # バリエーション使用
+
+  # 優先順位付け
+  prioritization:
+    description: "とるべき行動の優先順位を判断する能力"
+    rating: "" # S/A/B/C
+    components:
+      urgency_assessment: "" # 緊急性判断
+      importance_rating: ""  # 重要性評価
+      action_ordering: ""    # 行動順序決定
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項

@@ -1,0 +1,69 @@
+# 基本トススキル (Basic Setting Skills)
+basic_sets:
+  # オーバーハンドトス
+  overhand_set:
+    description: "基本的なオーバーハンドトスの技術"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["ball_tracking", "court_awareness"]
+      judgment: ["situation_analysis", "quick_thinking"]
+      technique: ["ball_control", "precision"]
+      physical: ["finger_strength", "stability"]
+    components:
+      # 基本フォーム
+      form:
+        hand_position: ""    # 手の形
+        elbow_control: ""    # 肘のコントロール
+        body_balance: ""     # 体勢バランス
+        footwork: ""         # フットワーク
+      
+      # ボールコントロール
+      ball_control:
+        contact_point: ""    # 接点
+        release_timing: ""   # リリースタイミング
+        spin_control: ""     # 回転制御
+        trajectory: ""       # 弾道
+
+  # アンダーハンドトス
+  underhand_set:
+    description: "緊急時のアンダーハンドトス技術"
+    rating: "" # S/A/B/C
+    components:
+      # 基本動作
+      basics:
+        arm_position: ""     # 腕の位置
+        contact_area: ""     # 当て所
+        body_position: ""    # 体勢
+      
+      # コントロール
+      control:
+        height_control: ""   # 高さ調整
+        direction_control: "" # 方向制御
+        power_adjustment: "" # 強さ調整
+
+  # 距離別トス
+  distance_control:
+    description: "様々な距離のトスコントロール"
+    rating: "" # S/A/B/C
+    variations:
+      short_set: ""         # 近距離トス
+      medium_set: ""        # 中距離トス
+      long_set: ""          # 長距離トス
+      back_set: ""          # バックトス
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 練習メニュー例
+training_menus:
+  - name: "基本トス練習"
+    focus: ["form", "control"]
+    duration: "30分"
+    
+  - name: "距離別トス練習"
+    focus: ["accuracy", "consistency"]
+    duration: "25分"

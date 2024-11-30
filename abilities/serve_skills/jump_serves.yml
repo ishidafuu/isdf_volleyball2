@@ -1,0 +1,80 @@
+# ジャンプサーブスキル (Jump Serve Skills)
+jump_serves:
+  # パワージャンプサーブ
+  power_jump:
+    description: "最大の力を活かした強打のサーブ"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["spatial_sense", "court_awareness"]
+      judgment: ["risk_assessment", "tactical_choice"]
+      technique: ["ball_control", "timing_control"]
+      physical: ["power", "jumping"]
+    components:
+      approach:
+        run_up: ""        # 助走
+        steps: ""         # ステップワーク
+        rhythm: ""        # リズム
+        
+      toss:
+        height: ""        # 高さ
+        placement: ""     # 位置
+        consistency: ""   # 安定性
+        
+      jump_timing:
+        takeoff: ""       # 踏切タイミング
+        peak_timing: ""   # 最高点タイミング
+        coordination: ""  # 全体の協調性
+        
+      hitting:
+        contact_point: "" # ミート位置
+        power: ""        # 打球力
+        direction: ""    # 方向性
+
+  # タクティカルジャンプサーブ
+  tactical_jump:
+    description: "配球を重視した戦術的なサーブ"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["court_awareness", "pattern_recognition"]
+      judgment: ["tactical_choice", "situation_analysis"]
+      technique: ["ball_control", "precision"]
+      physical: ["jumping", "control"]
+    components:
+      preparation:
+        position: ""      # 開始位置
+        mental_focus: ""  # 精神的集中
+        target_choice: "" # 狙い所の選択
+        
+      execution:
+        spin_control: ""  # 回転管理
+        speed_variety: "" # 速度変化
+        placement: ""     # 配球
+
+# 共通評価要素
+common_assessments:
+  effectiveness:
+    power: ""           # 威力
+    accuracy: ""        # 精度
+    consistency: ""     # 安定性
+    
+  tactical_usage:
+    situation_choice: "" # 場面選択
+    target_selection: "" # ターゲット選択
+    risk_management: "" # リスク管理
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 練習メニュー例
+training_menus:
+  - name: "パワーサーブ基礎練習"
+    focus: ["toss_consistency", "jumping_timing"]
+    duration: "30分"
+    
+  - name: "タクティカルサーブ精度練習"
+    focus: ["placement", "spin_control"]
+    duration: "25分"

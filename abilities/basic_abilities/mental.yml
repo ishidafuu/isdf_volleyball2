@@ -1,0 +1,61 @@
+# メンタル能力関連 (Mental Abilities)
+mental:
+  # 集中力
+  concentration:
+    description: "必要な情報に注意を向け続ける能力"
+    rating: "" # S/A/B/C
+    components:
+      focus_maintenance: ""   # 集中維持力
+      distraction_control: "" # 妨害対処力
+      attention_quality: ""   # 注意力の質
+
+  # プレッシャー耐性
+  pressure_handling:
+    description: "重要な場面での精神的安定性"
+    rating: "" # S/A/B/C
+    components:
+      stress_tolerance: ""    # ストレス耐性
+      clutch_performance: "" # 重要場面での実力発揮
+      anxiety_management: "" # 不安管理
+
+  # 感情コントロール
+  emotional_control:
+    description: "感情の適切な管理と表現"
+    rating: "" # S/A/B/C
+    components:
+      mood_regulation: ""    # 気分調整
+      frustration_control: "" # フラストレーション制御
+      excitement_management: "" # 興奮度管理
+
+  # 意欲
+  motivation:
+    description: "目標に向かって努力を継続する力"
+    rating: "" # S/A/B/C
+    components:
+      goal_orientation: ""   # 目標指向性
+      perseverance: ""      # 粘り強さ
+      initiative: ""        # 自発性
+
+  # 回復力
+  resilience:
+    description: "失敗や挫折から立ち直る能力"
+    rating: "" # S/A/B/C
+    components:
+      error_recovery: ""    # ミス後の立ち直り
+      setback_handling: "" # 挫折からの回復
+      learning_ability: "" # 経験からの学習
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# メンタルトレーニング記録
+mental_training:
+  - date: ""
+    type: ""         # トレーニング種類
+    focus_area: ""   # 焦点領域
+    effectiveness: "" # 効果
+    notes: ""        # 特記事項

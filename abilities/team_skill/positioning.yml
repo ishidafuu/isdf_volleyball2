@@ -1,0 +1,77 @@
+# ポジショニングスキル (Positioning Skills)
+positioning:
+  # コートカバレッジ
+  court_coverage:
+    description: "コート内のスペースをカバーする能力"
+    rating: "" # S/A/B/C
+    components:
+      # 基本的なポジショニング
+      basic_positioning:
+        starting_position: ""  # 開始位置
+        movement_range: ""     # 移動範囲
+        space_awareness: ""    # スペース認識
+        
+      # 状況別ポジショニング
+      situational:
+        defense_position: ""   # 守備位置
+        attack_support: ""     # 攻撃サポート
+        transition: ""         # 切り替え時
+
+  # フォーメーション対応
+  formation:
+    description: "チームフォーメーションでの位置取り"
+    rating: "" # S/A/B/C
+    components:
+      # 攻撃フォーメーション
+      offensive:
+        rotation_position: ""  # ローテーションポジション
+        attack_formation: ""   # 攻撃隊形
+        support_position: ""   # サポート位置
+        
+      # 守備フォーメーション
+      defensive:
+        base_formation: ""     # 基本隊形
+        blocking_scheme: ""    # ブロック体制
+        receive_formation: ""  # レシーブ隊形
+
+  # 連携ポジショニング
+  coordination:
+    description: "味方との連携を考慮した位置取り"
+    rating: "" # S/A/B/C
+    components:
+      # ブロック連携
+      block_coordination:
+        closing_gap: ""        # 間合い調整
+        timing_match: ""       # タイミング合わせ
+        movement_sync: ""      # 移動同期
+        
+      # レシーブ連携
+      receive_coordination:
+        coverage_balance: ""   # カバー範囲調整
+        responsibility: ""     # 責任範囲理解
+        support_positioning: "" # サポート位置取り
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# ポジション別特記事項
+position_specific:
+  wing_spiker:
+    key_points: []    # 主要注意点
+    optimal_positions: [] # 最適位置
+  
+  middle_blocker:
+    key_points: []    # 主要注意点
+    optimal_positions: [] # 最適位置
+  
+  setter:
+    key_points: []    # 主要注意点
+    optimal_positions: [] # 最適位置
+  
+  libero:
+    key_points: []    # 主要注意点
+    optimal_positions: [] # 最適位置

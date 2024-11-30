@@ -1,0 +1,98 @@
+# サーブコントロール特性 (Serve Control Characteristics)
+serve_control:
+  # コース制御
+  course_control:
+    description: "サーブのコースをコントロールする能力"
+    rating: "" # S/A/B/C
+    components:
+      # 基本コース
+      basic_courses:
+        straight: ""       # ストレート
+        cross: ""          # クロス
+        center: ""         # センター
+      
+      # 細かいコース
+      detailed_courses:
+        seam: ""           # シーム狙い
+        shoulder: ""       # 肩付近
+        foot: ""           # 足元
+
+  # 球質制御
+  ball_quality:
+    description: "サーブの球質をコントロールする能力"
+    rating: "" # S/A/B/C
+    components:
+      # 回転
+      spin:
+        top_spin: ""       # トップスピン
+        side_spin: ""      # サイドスピン
+        no_spin: ""        # 無回転
+      
+      # 速度
+      speed:
+        max_speed: ""      # 最高速度
+        speed_control: ""  # 速度調整
+        deceleration: ""   # 減速制御
+
+  # 戦術的制御
+  tactical_control:
+    description: "状況に応じたサーブの使い分け"
+    rating: "" # S/A/B/C
+    components:
+      # 状況判断
+      situation:
+        score_awareness: "" # スコア状況
+        receiver_analysis: "" # レシーバー分析
+        risk_assessment: "" # リスク判断
+      
+      # 的確性
+      accuracy:
+        target_precision: "" # 狙い精度
+        consistency: ""     # 安定性
+        adaptability: ""    # 適応性
+
+  # 環境対応
+  environmental_adaptation:
+    description: "環境要因への対応能力"
+    rating: "" # S/A/B/C
+    components:
+      # 外的要因
+      external_factors:
+        air_control: ""     # 空気抵抗対応
+        wind_adjustment: "" # 気流対応
+        court_condition: "" # コート状態対応
+      
+      # 心理的要因
+      psychological_factors:
+        pressure_handling: "" # プレッシャー対応
+        rhythm_control: ""   # リズム管理
+        focus_maintenance: "" # 集中力維持
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# サーブ分析
+serve_analysis:
+  course_stats:
+    - target: ""        # 狙ったコース
+      success_rate: ""  # 成功率
+      effectiveness: "" # 効果率
+  
+  pattern_stats:
+    - sequence: ""      # 組み立て
+      success_rate: ""  # 成功率
+      points_won: ""    # 得点率
+
+# 練習メニュー
+training_menus:
+  - name: "コース制御練習"
+    focus: ["precision", "consistency"]
+    duration: "30分"
+    
+  - name: "球質制御練習"
+    focus: ["spin", "speed"]
+    duration: "25分"

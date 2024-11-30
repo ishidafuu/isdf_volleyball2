@@ -1,0 +1,80 @@
+# フローターサーブスキル (Float Serve Skills)
+float_serves:
+  # スタンディングフローター
+  standing_float:
+    description: "その場でのフローターサーブ"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["court_awareness", "spatial_sense"]
+      judgment: ["tactical_choice", "risk_assessment"]
+      technique: ["ball_control", "precision"]
+      physical: ["form_stability", "control"]
+    components:
+      toss:
+        height: ""       # トス高
+        consistency: ""  # 安定性
+        positioning: ""  # 位置
+
+      contact:
+        point: ""        # ミート位置
+        surface: ""      # 接触面
+        cleanness: ""    # クリーン度
+
+      control:
+        direction: ""    # 方向性
+        depth: ""        # 深さ
+        stability: ""    # 安定性
+
+  # ジャンプフローター
+  jump_float:
+    description: "ジャンプを伴うフローターサーブ"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["court_awareness", "spatial_sense"]
+      judgment: ["tactical_choice", "risk_assessment"]
+      technique: ["timing_control", "ball_control"]
+      physical: ["jumping", "control"]
+    components:
+      approach:
+        steps: ""        # ステップ
+        timing: ""       # タイミング
+        rhythm: ""       # リズム
+
+      toss_and_jump:
+        coordination: "" # 連携性
+        consistency: ""  # 安定性
+        height: ""       # 跳躍高
+
+      ball_contact:
+        timing: ""       # タイミング
+        precision: ""    # 精度
+        effectiveness: "" # 効果性
+
+# 共通評価要素
+common_assessments:
+  ball_movement:
+    float_quality: ""    # 浮き具合
+    unpredictability: "" # 不規則性
+    speed_control: ""    # 速度調整
+
+  targeting:
+    accuracy: ""         # 正確性
+    consistency: ""      # 一貫性
+    adaptability: ""     # 状況適応
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 練習メニュー例
+training_menus:
+  - name: "基本フローターサーブ練習"
+    focus: ["toss_consistency", "clean_contact"]
+    duration: "20分"
+    
+  - name: "ジャンプフローター精度練習"
+    focus: ["approach_timing", "targeting"]
+    duration: "25分"

@@ -1,0 +1,136 @@
+# 技術関連能力 (Technical Abilities)
+technique:
+  # ボールコントロール
+  ball_control:
+    description: "ボールを扱う基本的な技術力"
+    rating: "" # S/A/B/C
+    components:
+      # ハンドリング
+      handling:
+        soft_control: ""     # 柔らかい処理
+        hard_control: ""     # 強い球の処理
+        spin_control: ""     # 回転処理
+        irregular_ball: ""   # 不規則な球処理
+      
+      # ミート
+      contact:
+        timing: ""          # タイミング
+        cleanness: ""       # クリーン度
+        consistency: ""     # 安定性
+        precision: ""       # 正確性
+
+  # 体勢制御
+  body_control:
+    description: "体の使い方や姿勢保持の技術"
+    rating: "" # S/A/B/C
+    components:
+      # 基本姿勢
+      posture:
+        balance: ""         # バランス
+        stability: ""       # 安定性
+        flexibility: ""     # 柔軟性
+        core_control: ""    # 体幹制御
+      
+      # 動作制御
+      movement:
+        smoothness: ""      # 滑らかさ
+        efficiency: ""      # 効率性
+        coordination: ""    # 協調性
+        adjustment: ""      # 調整力
+
+  # タイミング制御
+  timing_control:
+    description: "動作のタイミングをコントロールする技術"
+    rating: "" # S/A/B/C
+    components:
+      # リズム
+      rhythm:
+        consistency: ""     # 一定性
+        adaptability: ""    # 適応力
+        variation: ""       # 変化対応
+      
+      # 同期
+      synchronization:
+        ball_sync: ""       # ボールとの同期
+        team_sync: ""       # 味方との同期
+        situation_sync: ""  # 状況との同期
+
+  # フォーム安定性
+  form_stability:
+    description: "基本フォームの安定性と再現性"
+    rating: "" # S/A/B/C
+    components:
+      # 基本動作
+      basic_form:
+        reproducibility: "" # 再現性
+        consistency: ""     # 安定性
+        efficiency: ""      # 効率性
+      
+      # 応用動作
+      applied_form:
+        adaptation: ""      # 状況適応
+        correction: ""      # 修正能力
+        maintenance: ""     # 維持力
+
+  # 技術応用力
+  skill_application:
+    description: "習得した技術の実践的な応用力"
+    rating: "" # S/A/B/C
+    components:
+      # 状況対応
+      situational:
+        recognition: ""     # 状況認識
+        selection: ""       # 技術選択
+        execution: ""       # 実行力
+      
+      # 創造的応用
+      creative:
+        innovation: ""      # 新技術開発
+        combination: ""     # 技術組合せ
+        problem_solving: "" # 問題解決
+
+  # 修正能力
+  adjustment_ability:
+    description: "技術の問題点を認識し修正する能力"
+    rating: "" # S/A/B/C
+    components:
+      # 自己分析
+      self_analysis:
+        problem_detection: "" # 問題発見
+        cause_analysis: ""   # 原因分析
+        solution_planning: "" # 解決計画
+      
+      # 実践的修正
+      practical_correction:
+        immediate_fix: ""    # その場修正
+        gradual_improve: ""  # 段階的改善
+        habit_formation: ""  # 習慣化
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 技術トレーニング記録
+training_record:
+  - date: ""
+    focus_area: ""     # 重点領域
+    method: ""         # トレーニング方法
+    duration: ""       # 実施時間
+    effectiveness: ""  # 効果
+    issues: ""         # 課題
+    next_steps: ""     # 次のステップ
+
+# 上達度追跡
+improvement_tracking:
+  short_term:
+    goals: []          # 短期目標
+    progress: ""       # 進捗状況
+    adjustments: []    # 調整項目
+    
+  long_term:
+    goals: []          # 長期目標
+    milestones: []     # マイルストーン
+    development_plan: "" # 育成計画

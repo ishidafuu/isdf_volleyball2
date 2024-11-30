@@ -1,0 +1,72 @@
+# コミュニケーションスキル (Communication Skills)
+communication:
+  # 言語的コミュニケーション
+  verbal:
+    description: "声を使ったコミュニケーション能力"
+    rating: "" # S/A/B/C
+    components:
+      # コール
+      calling:
+        clarity: ""         # 明確さ
+        volume: ""          # 音量
+        timing: ""          # タイミング
+        content: 
+          mine: ""          # 自分のボール
+          help: ""          # カバーリング
+          position: ""      # 位置情報
+          strategy: ""      # 戦術指示
+      
+      # フィードバック
+      feedback:
+        constructive: ""    # 建設的な意見
+        encouragement: ""   # 励まし
+        instruction: ""     # 指示
+        situation_report: "" # 状況報告
+
+  # 非言語的コミュニケーション
+  non_verbal:
+    description: "ジェスチャーや表情によるコミュニケーション"
+    rating: "" # S/A/B/C
+    components:
+      # シグナル
+      signals:
+        hand_signals: ""    # ハンドシグナル
+        eye_contact: ""     # アイコンタクト
+        body_language: ""   # ボディランゲージ
+        
+      # 共有・確認
+      acknowledgment:
+        understanding: ""   # 理解確認
+        readiness: ""       # 準備確認
+        agreement: ""       # 合意確認
+
+  # チームコミュニケーション
+  team_communication:
+    description: "チーム全体とのコミュニケーション"
+    rating: "" # S/A/B/C
+    components:
+      # 試合中
+      in_game:
+        rotation_calls: ""  # ローテーション確認
+        strategy_share: ""  # 戦術共有
+        momentum_manage: "" # 流れの管理
+        
+      # タイムアウト時
+      timeout:
+        problem_share: ""   # 問題点共有
+        adjustment_disc: "" # 調整討議
+        motivation_comm: "" # モチベーション伝達
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# コミュニケーション改善計画
+improvement_plan:
+  - area: ""          # 改善領域
+    current_level: "" # 現在のレベル
+    target: ""        # 目標
+    approach: ""      # 取り組み方法

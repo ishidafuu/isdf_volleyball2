@@ -1,0 +1,119 @@
+# 移動攻撃スキル (Moving Attack Skills)
+moving_attacks:
+  # クイック攻撃
+  quick_attack:
+    description: "速攻による攻撃技術"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["ball_tracking", "timing_sense"]
+      judgment: ["quick_thinking", "decision_making"]
+      technique: ["timing_control", "movement_precision"]
+      physical: ["speed", "jumping"]
+    components:
+      # 助走
+      approach:
+        starting_position: ""  # 開始位置
+        step_pattern: ""      # ステップパターン
+        approach_speed: ""    # 助走速度
+        timing_adjustment: "" # タイミング調整
+      
+      # ジャンプ
+      jump:
+        takeoff_timing: ""    # 踏切タイミング
+        vertical_height: ""   # 跳躍高
+        body_control: ""      # 体勢制御
+        horizontal_drift: ""  # 水平移動
+
+  # スライド攻撃
+  slide_attack:
+    description: "横移動を伴う攻撃技術"
+    rating: "" # S/A/B/C
+    components:
+      # 移動技術
+      movement:
+        slide_step: ""        # スライドステップ
+        speed_control: ""     # スピード制御
+        path_adjustment: ""   # 移動軌道
+      
+      # 打撃技術
+      hitting:
+        arm_swing: ""         # スイング
+        contact_point: ""     # ミート位置
+        direction_control: "" # 方向制御
+
+  # パイプ攻撃
+  pipe_attack:
+    description: "後衛からの移動攻撃"
+    rating: "" # S/A/B/C
+    components:
+      # アプローチ
+      approach:
+        starting_timing: ""   # 開始タイミング
+        acceleration: ""      # 加速
+        path_selection: ""    # 移動経路
+      
+      # 実行
+      execution:
+        jump_timing: ""       # ジャンプタイミング
+        hitting_position: ""  # 打点位置
+        landing_control: ""   # 着地制御
+
+  # 時間差攻撃
+  delayed_attack:
+    description: "タイミングをずらした攻撃"
+    rating: "" # S/A/B/C
+    components:
+      # タイミング制御
+      timing:
+        delay_control: ""     # 遅延制御
+        rhythm_change: ""     # リズム変更
+        synchronization: ""   # トスとの同期
+      
+      # 技術実行
+      execution:
+        deception: ""         # フェイント性
+        position_adjust: ""   # 位置調整
+        attack_variety: ""    # 攻撃バリエーション
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# トレーニングメニュー
+training_menus:
+  # 基礎練習
+  basic_training:
+    - name: "クイック基礎練習"
+      focus: ["timing", "approach"]
+      duration: "30分"
+    
+    - name: "スライド練習"
+      focus: ["movement", "hitting"]
+      duration: "25分"
+
+  # 応用練習
+  advanced_training:
+    - name: "パイプ攻撃練習"
+      focus: ["approach", "timing"]
+      duration: "35分"
+    
+    - name: "時間差攻撃練習"
+      focus: ["synchronization", "deception"]
+      duration: "30分"
+
+# セッターとの連携
+setter_coordination:
+  # コミュニケーション
+  communication:
+    verbal_signals: ""      # 声によるサイン
+    non_verbal_signals: ""  # 非言語サイン
+    timing_agreement: ""    # タイミング確認
+
+  # 攻撃パターン
+  attack_patterns:
+    standard_patterns: []   # 基本パターン
+    special_patterns: []    # 特殊パターン
+    situation_patterns: []  # 状況別パターン

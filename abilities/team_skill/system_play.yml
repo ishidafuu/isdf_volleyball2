@@ -1,0 +1,88 @@
+# システムプレー (System Play)
+system_play:
+  # 攻撃システム
+  offense_system:
+    description: "チームの攻撃システムの理解と実行"
+    rating: "" # S/A/B/C
+    components:
+      # 基本攻撃システム
+      basic_offense:
+        pattern_understanding: "" # パターン理解
+        role_execution: ""       # 役割遂行
+        timing_adjustment: ""    # タイミング調整
+        
+      # コンビネーション攻撃
+      combinations:
+        pattern_variety: ""      # パターン多様性
+        execution_skill: ""      # 実行力
+        adaptation: ""           # 状況適応
+        
+      # 速攻システム
+      quick_offense:
+        tempo_control: ""        # テンポコントロール
+        synchronization: ""      # 同期性
+        decision_making: ""      # 判断力
+
+  # 守備システム
+  defense_system:
+    description: "チームの守備システムの理解と実行"
+    rating: "" # S/A/B/C
+    components:
+      # 基本守備システム
+      basic_defense:
+        formation_understanding: "" # 隊形理解
+        position_responsibility: "" # 位置責任
+        movement_patterns: ""      # 移動パターン
+        
+      # ブロックシステム
+      blocking_system:
+        strategy_execution: ""     # 戦術実行
+        timing_coordination: ""    # タイミング調整
+        position_switching: ""     # ポジション切替
+        
+      # レシーブシステム
+      receive_system:
+        formation_maintenance: ""  # 隊形維持
+        coverage_execution: ""     # カバー実行
+        adjustment_ability: ""     # 調整能力
+
+  # 展開システム
+  transition_system:
+    description: "攻守の切り替えシステムの理解と実行"
+    rating: "" # S/A/B/C
+    components:
+      # 攻守切り替え
+      transition:
+        offense_to_defense: ""    # 攻撃から守備
+        defense_to_offense: ""    # 守備から攻撃
+        position_recovery: ""     # ポジション回復
+        
+      # 緊急対応
+      emergency_response:
+        situation_recognition: "" # 状況認識
+        quick_adjustment: ""      # 素早い調整
+        team_coordination: ""     # チーム連携
+
+# システム評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# チーム固有システム
+team_specific_systems:
+  offense_patterns:
+    - name: ""        # パターン名
+      description: "" # 説明
+      key_points: [] # 重要ポイント
+  
+  defense_patterns:
+    - name: ""        # パターン名
+      description: "" # 説明
+      key_points: [] # 重要ポイント
+  
+  special_plays:
+    - name: ""        # 特殊プレー名
+      situation: ""   # 使用状況
+      execution: ""   # 実行方法

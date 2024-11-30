@@ -1,0 +1,3 @@
+id,name_family,name_given,name_full,name_reading,year,position,height,team,previous_team
+chr_xx01,姓,名,姓 名,セイ メイ,学年(1-3),ポジション,身長,現所属チーム,前所属チーム
+# ポジション: WSP(ウィングスパイカー), MB(ミドルブロッカー), S(セッター), L(リベロ), OP(オポジット)

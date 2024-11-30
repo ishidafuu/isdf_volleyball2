@@ -1,0 +1,112 @@
+# ディグスキル (Dig Skills)
+dig:
+  # 基本ディグ
+  basic_dig:
+    description: "基本的なディグ技術"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["ball_tracking", "prediction"]
+      judgment: ["quick_thinking", "reaction"]
+      technique: ["body_control", "ball_control"]
+      physical: ["agility", "reflexes"]
+    components:
+      # 基本動作
+      fundamentals:
+        ready_position: ""   # 構え
+        reaction_speed: ""   # 反応速度
+        movement: ""         # 動き出し
+        body_control: ""     # 体勢制御
+      
+      # ボールコントロール
+      ball_control:
+        contact_quality: ""  # ミートの質
+        direction_control: "" # 方向制御
+        power_control: ""    # 強さ調整
+        recovery_speed: ""   # 立ち直り
+
+  # 緊急ディグ
+  emergency_dig:
+    description: "緊急時の対応技術"
+    rating: "" # S/A/B/C
+    components:
+      # 特殊技術
+      special_techniques:
+        diving: ""           # ダイビング
+        rolling: ""          # ローリング
+        sliding: ""          # スライディング
+      
+      # 状況対応
+      situational_response:
+        quick_decision: ""   # 瞬時判断
+        body_adjustment: ""  # 体勢調整
+        ball_saving: ""      # ボール救済
+
+  # 攻撃別ディグ
+  attack_specific:
+    description: "攻撃種類別の対応技術"
+    rating: "" # S/A/B/C
+    variations:
+      spike_dig: ""         # スパイク対応
+      feint_dig: ""         # フェイント対応
+      tip_dig: ""           # チップ対応
+      block_follow: ""      # ブロックフォロー
+
+  # ポジショニング
+  positioning:
+    description: "ディグのための位置取り"
+    rating: "" # S/A/B/C
+    components:
+      # 基本位置取り
+      basic_positioning:
+        court_coverage: ""   # コートカバー
+        distance_adjust: ""  # 距離調整
+        angle_positioning: "" # 角度取り
+      
+      # 状況別位置取り
+      situational:
+        attack_reading: ""   # 攻撃予測
+        block_reading: ""    # ブロック予測
+        teammate_sync: ""    # 味方との連携
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# トレーニングメニュー
+training_menus:
+  # 基礎練習
+  basic_training:
+    - name: "基本ディグ練習"
+      focus: ["reaction", "control"]
+      duration: "30分"
+    
+    - name: "緊急対応練習"
+      focus: ["diving", "rolling"]
+      duration: "20分"
+
+  # 実践練習
+  practical_training:
+    - name: "攻撃別対応練習"
+      focus: ["reading", "positioning"]
+      duration: "40分"
+    
+    - name: "連携ディグ練習"
+      focus: ["coverage", "communication"]
+      duration: "30分"
+
+# ディグ固有評価
+digger_specific:
+  # 反応能力
+  reaction_ability:
+    visual_response: ""    # 視覚反応
+    physical_response: ""  # 身体反応
+    anticipation: ""       # 予測能力
+
+  # 救球能力
+  ball_saving:
+    difficult_balls: ""    # 困難球対応
+    coverage_range: ""     # カバー範囲
+    success_rate: ""       # 成功率

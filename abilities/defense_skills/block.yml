@@ -1,0 +1,95 @@
+# ブロックスキル (Blocking Skills)
+block:
+  # 基本ブロック
+  basic_block:
+    description: "基本的なブロック技術"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["ball_tracking", "pattern_recognition"]
+      judgment: ["quick_thinking", "situation_analysis"]
+      technique: ["timing_control", "hand_position"]
+      physical: ["jumping", "reach"]
+    components:
+      # 基本姿勢
+      stance:
+        ready_position: ""   # 構え
+        hand_position: ""    # 手の位置
+        foot_position: ""    # 足の位置
+      
+      # ジャンプ
+      jump:
+        timing: ""          # タイミング
+        vertical_reach: ""   # 到達点
+        stability: ""        # 安定性
+
+  # 移動ブロック
+  moving_block:
+    description: "サイドへの移動を伴うブロック"
+    rating: "" # S/A/B/C
+    components:
+      # 移動技術
+      movement:
+        step_work: ""       # ステップワーク
+        speed: ""           # 移動速度
+        balance: ""         # バランス
+      
+      # 実行力
+      execution:
+        positioning: ""     # 位置取り
+        timing_adjust: ""   # タイミング調整
+        coordination: ""    # 連携
+
+  # 読みブロック
+  read_block:
+    description: "相手の攻撃を読んでのブロック"
+    rating: "" # S/A/B/C
+    components:
+      # 読み
+      reading:
+        toss_reading: ""    # トス判断
+        attacker_reading: "" # アタッカー読み
+        pattern_reading: "" # パターン読み
+      
+      # 対応
+      response:
+        position_adjust: "" # 位置調整
+        timing_match: ""    # タイミング合わせ
+        commitment: ""      # コミット判断
+
+  # コミットブロック
+  commit_block:
+    description: "特定の攻撃に対する先読みブロック"
+    rating: "" # S/A/B/C
+    components:
+      # 判断
+      decision:
+        situation_judge: "" # 状況判断
+        risk_assessment: "" # リスク評価
+        timing_choice: ""   # タイミング選択
+      
+      # 実行
+      execution:
+        anticipation: ""    # 先読み
+        quick_response: ""  # 素早い反応
+        effectiveness: ""   # 効果性
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# ブロッカー固有評価
+blocker_specific:
+  # 攻撃別対応力
+  attack_response:
+    quick_attack: ""       # クイック対応
+    pipe_attack: ""        # パイプ対応
+    slide_attack: ""       # スライド対応
+    
+  # チーム連携
+  team_coordination:
+    three_person: ""       # 3人ブロック
+    two_person: ""         # 2人ブロック
+    communication: ""      # コミュニケーション

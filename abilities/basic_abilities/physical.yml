@@ -1,0 +1,79 @@
+# 身体能力関連 (Physical Abilities)
+physical:
+  # パワー
+  power:
+    description: "力強い動きを生み出す能力"
+    rating: "" # S/A/B/C
+    components:
+      explosive_power: ""    # 爆発的パワー
+      sustained_power: ""    # 持続的パワー
+      muscle_strength: ""    # 筋力
+
+  # スピード
+  speed:
+    description: "素早い動きを実現する能力"
+    rating: "" # S/A/B/C
+    components:
+      acceleration: ""      # 加速力
+      max_speed: ""        # 最高速度
+      movement_speed: ""    # 動作速度
+      reaction_speed: ""    # 反応速度
+
+  # ジャンプ力
+  jumping:
+    description: "垂直・水平方向への跳躍能力"
+    rating: "" # S/A/B/C
+    components:
+      vertical_jump: ""    # 垂直跳び
+      approach_jump: ""    # 助走跳び
+      repeated_jump: ""    # 連続跳躍
+      jump_control: ""     # 跳躍コントロール
+
+  # 柔軟性
+  flexibility:
+    description: "関節や筋肉の可動域"
+    rating: "" # S/A/B/C
+    components:
+      dynamic_flexibility: ""  # 動的柔軟性
+      static_flexibility: ""   # 静的柔軟性
+      joint_mobility: ""       # 関節可動域
+
+  # 持久力
+  endurance:
+    description: "長時間の運動を持続する能力"
+    rating: "" # S/A/B/C
+    components:
+      aerobic_endurance: ""    # 有酸素持久力
+      anaerobic_endurance: ""  # 無酸素持久力
+      recovery_ability: ""     # 回復力
+
+  # 敏捷性
+  agility:
+    description: "素早い方向転換や動作の切り替え能力"
+    rating: "" # S/A/B/C
+    components:
+      direction_change: ""     # 方向転換
+      body_control: ""         # 体勢制御
+      movement_precision: ""   # 動作精度
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# 測定記録
+measurements:
+  vertical_jump:
+    value: ""         # cm
+    date: ""
+  approach_jump:
+    value: ""         # cm
+    date: ""
+  sprint_speed:
+    value: ""         # 秒
+    date: ""
+  flexibility_test:
+    value: ""         # cm
+    date: ""

@@ -1,0 +1,88 @@
+# フットワークスキル (Footwork Skills)
+footwork:
+  # 基本ステップ
+  basic_steps:
+    description: "基本的な足運びの技術"
+    rating: "" # S/A/B/C
+    components:
+      # 基本動作
+      fundamentals:
+        ready_position: ""   # 構え
+        weight_shift: ""     # 重心移動
+        step_pattern: ""     # ステップパターン
+      
+      # ステップワーク
+      step_work:
+        side_step: ""        # サイドステップ
+        cross_step: ""       # クロスステップ
+        split_step: ""       # スプリットステップ
+        pivot: ""           # ピボット
+
+  # 方向転換
+  direction_change:
+    description: "素早い方向転換の技術"
+    rating: "" # S/A/B/C
+    components:
+      # 切り返し
+      turning:
+        quick_turn: ""       # クイックターン
+        smooth_transition: "" # スムーズな切り替え
+        balance_control: ""  # バランス制御
+      
+      # 加速・減速
+      speed_control:
+        acceleration: ""     # 加速
+        deceleration: ""     # 減速
+        stop_and_go: ""     # ストップ＆ゴー
+
+  # 移動技術
+  movement:
+    description: "効率的な移動技術"
+    rating: "" # S/A/B/C
+    components:
+      # 基本移動
+      basic_movement:
+        forward: ""          # 前進
+        backward: ""         # 後退
+        lateral: ""          # 横移動
+        diagonal: ""         # 斜め移動
+      
+      # 特殊移動
+      special_movement:
+        sliding: ""          # スライディング
+        jumping: ""          # ジャンプ移動
+        recovery: ""         # 態勢立て直し
+
+  # 状況対応
+  situational_response:
+    description: "様々な状況での足さばき"
+    rating: "" # S/A/B/C
+    components:
+      # 緊急対応
+      emergency:
+        quick_response: ""   # 瞬時反応
+        balance_recovery: "" # バランス回復
+        direction_adjust: "" # 方向調整
+      
+      # 戦術的移動
+      tactical:
+        positioning: ""      # ポジション取り
+        coverage: ""         # カバーリング
+        anticipation: ""     # 先読み移動
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# トレーニングメニュー
+training_menus:
+  - name: "基本ステップ練習"
+    focus: ["pattern", "balance"]
+    duration: "20分"
+    
+  - name: "方向転換練習"
+    focus: ["quickness", "control"]
+    duration: "25分"

@@ -1,0 +1,112 @@
+# レシーブスキル (Receive Skills)
+receive:
+  # 基本レシーブ
+  basic_receive:
+    description: "基本的なレシーブ技術"
+    rating: "" # S/A/B/C
+    required_abilities:
+      vision: ["ball_tracking", "prediction"]
+      judgment: ["quick_thinking", "situation_analysis"]
+      technique: ["body_control", "ball_control"]
+      physical: ["agility", "stability"]
+    components:
+      # 基本姿勢
+      stance:
+        ready_position: ""   # 構え
+        arm_position: ""     # 腕の位置
+        leg_position: ""     # 脚の位置
+        weight_distribution: "" # 重心配分
+      
+      # ボールコントロール
+      ball_control:
+        contact_point: ""    # ミート位置
+        platform_angle: ""   # 腕の角度
+        cushioning: ""       # クッション
+        direction_control: "" # 方向制御
+
+  # サーブレシーブ
+  serve_receive:
+    description: "サーブに対するレシーブ技術"
+    rating: "" # S/A/B/C
+    components:
+      # 対応力
+      response:
+        float_serve: ""      # フローター対応
+        jump_serve: ""       # ジャンプサーブ対応
+        spike_serve: ""      # スパイクサーブ対応
+      
+      # コントロール
+      control:
+        accuracy: ""         # 正確性
+        consistency: ""      # 安定性
+        target_setting: ""   # 目標設定
+
+  # ポジション別レシーブ
+  position_specific:
+    description: "各ポジションでのレシーブ特性"
+    rating: "" # S/A/B/C
+    variations:
+      left_position: ""     # レフトポジション
+      center_position: ""   # センターポジション
+      right_position: ""    # ライトポジション
+      back_position: ""     # バックポジション
+
+  # 応用レシーブ
+  advanced_receive:
+    description: "高度なレシーブ技術"
+    rating: "" # S/A/B/C
+    components:
+      # 特殊対応
+      special_techniques:
+        one_arm_receive: ""  # 片手レシーブ
+        low_receive: ""      # 低い姿勢
+        overhead_receive: "" # オーバーハンド
+      
+      # 状況対応
+      situational:
+        off_balance: ""      # 崩れ体勢
+        emergency: ""        # 緊急対応
+        recovery: ""         # 態勢立て直し
+
+# 評価履歴
+assessment_history:
+  - date: ""          # 評価日
+    evaluator: ""     # 評価者
+    overall_rating: "" # 総合評価
+    notes: ""         # 特記事項
+
+# トレーニングメニュー
+training_menus:
+  # 基本練習
+  basic_training:
+    - name: "ベーシックレシーブ"
+      focus: ["stance", "control"]
+      duration: "30分"
+    
+    - name: "サーブレシーブ練習"
+      focus: ["reading", "positioning"]
+      duration: "45分"
+
+  # 応用練習
+  advanced_training:
+    - name: "複合レシーブ"
+      focus: ["movement", "adaptation"]
+      duration: "30分"
+    
+    - name: "状況別レシーブ"
+      focus: ["decision_making", "execution"]
+      duration: "40分"
+
+# レシーブ固有評価
+receiver_specific:
+  # 予測能力
+  anticipation:
+    serve_reading: ""      # サーブ予測
+    course_prediction: ""  # コース予測
+    speed_adjustment: ""   # スピード対応
+
+  # チーム連携
+  team_coordination:
+    position_coverage: ""  # ポジションカバー
+    communication: ""      # コミュニケーション
+    formation_adjust: ""   # 隊形調整

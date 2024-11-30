@@ -1,0 +1,24 @@
+character-profile.md:
+  source: character-profile.md
+  description: キャラクタープロフィールのテンプレート
+  required: true
+
+team-profile.md:
+  source: team-profile.md
+  description: チームプロフィールのテンプレート
+  required: true
+
+relationship-doc.md:
+  source: relationship-doc.md
+  description: キャラクター間の関係性記述のテンプレート
+  required: true
+
+constants.md:
+  source: constants.md
+  description: 共通定数の定義
+  required: true
+
+tags.md:
+  source: tags.md
+  description: キャラクター分類用タグの定義
+  required: true
