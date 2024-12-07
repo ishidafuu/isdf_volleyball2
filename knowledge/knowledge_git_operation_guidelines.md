@@ -31,6 +31,7 @@
 ## 4. 作業手順
 1. 作業前にmainブランチを最新化
    ```bash
+   # リポジトリパス: /users/ishida/documents/isdf_volleyball2
    git checkout main
    git pull origin main
    ```
@@ -57,3 +58,6 @@
 - バイナリファイルのコミットは最小限に抑える
 - コンフリクトが発生した場合は、関係者と相談の上で解決する
 - 不要になったブランチは適宜削除する
+
+## 6. プロジェクト情報
+- リポジトリパス: `/users/ishida/documents/isdf_volleyball2`
