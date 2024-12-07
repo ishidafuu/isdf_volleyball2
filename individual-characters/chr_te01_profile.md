@@ -5,7 +5,7 @@ last_updated: 2024-11-13
 status: final
 
 # Basic Information
-character_id: chr_to01
+character_id: chr_te01
 name:
   given: "悟"
   family: "鷹山"
