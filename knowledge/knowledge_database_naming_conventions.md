@@ -18,13 +18,13 @@
 ### 2.2 命名例
 良い例：
 - characters
-- junior_high_schools
+- middle_schools
 - team_members
 - match_results
 
 避けるべき例：
 - character （単数形）
-- JuniorHighSchools （パスカルケース）
+- MiddleSchools （パスカルケース）
 - TEAM_MEMBERS （大文字）
 - tbl_match_results （不要なプレフィックス）
 
