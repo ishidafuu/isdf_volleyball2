@@ -37,13 +37,27 @@ abilities/
 キャラクターやチームに関するエピソード管理
 ```
 episodes/
-├── 1_year_ago/             # 1年前のエピソード
-├── 2_years_ago/            # 2年前のエピソード
-└── 3_years_ago/            # 3年前のエピソード
-    ├── schools/            # 学校別エピソード
-    ├── characters/         # キャラクター別エピソード
-    ├── matches/            # 試合関連エピソード
-    └── districts/          # 地区別エピソード
+├── 1_year_ago/              # 1年前のエピソード
+│   ├── schools/             # 学校別エピソード
+│   ├── characters/          # キャラクター別エピソード
+│   ├── matches/             # 試合関連エピソード
+│   │   ├── official/        # 公式戦
+│   │   └── practice/        # 練習試合
+│   └── districts/           # 地区別エピソード
+├── 2_years_ago/             # 2年前のエピソード
+│   ├── schools/             # 学校別エピソード
+│   ├── characters/          # キャラクター別エピソード
+│   ├── matches/             # 試合関連エピソード
+│   │   ├── official/        # 公式戦
+│   │   └── practice/        # 練習試合
+│   └── districts/           # 地区別エピソード
+└── 3_years_ago/             # 3年前のエピソード
+    ├── schools/             # 学校別エピソード
+    ├── characters/          # キャラクター別エピソード
+    ├── matches/             # 試合関連エピソード
+    │   ├── official/        # 公式戦
+    │   └── practice/        # 練習試合
+    └── districts/           # 地区別エピソード
 ```
 
 ### 2.3 individual-characters/
@@ -82,9 +96,10 @@ templates/
 - 学校別ディレクトリ構造
 - キャラクター分類構造
 - 能力値カテゴリ構造
+- 試合種別構造（official/practice）
 
 ### 3.2 ディレクトリ階層の制限
-- 最大階層深度: 4階層まで
+- 最大階層深度: 5階層まで（例：episodes/3_years_ago/matches/official/）
 - 各ディレクトリの役割を明確に維持すること
 - 新規ディレクトリ作成時は承認必須
 
